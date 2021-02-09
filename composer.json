@@ -1,0 +1,13 @@
+{
+    "name": "sayber/edna-laravel",
+    "description": "API client from Edna (mfms.ru)",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ivan Televny",
+            "email": "filonme@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
