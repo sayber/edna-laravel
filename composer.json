@@ -2,6 +2,7 @@
     "name": "sayber/edna-laravel",
     "description": "API client from Edna (mfms.ru)",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ivan Televny",
@@ -9,5 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4",
+        "spatie/data-transfer-object": "^2.8"
+    }
 }
