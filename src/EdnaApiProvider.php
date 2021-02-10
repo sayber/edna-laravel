@@ -1,12 +1,12 @@
 <?php
 
-namespace Sayber\Edna\EdnaApiProvider;
+namespace Sayber\Edna;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class EdnaApiProvider
- * @package Sayber\Edna\EdnaApiProvider
+ * @package Sayber\Edna
  */
 class EdnaApiProvider extends ServiceProvider
 {

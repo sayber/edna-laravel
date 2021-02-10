@@ -8,7 +8,7 @@ use Spatie\DataTransferObject\DataTransferObject as DataTransferObjectAlias;
  * Class EdnaImOutMessage
  * @package Sayber\Edna\Collections
  */
-class EdnaImOutMessage extends DataTransferObjectAlias
+class EdnaImOutMessageCollection extends DataTransferObjectAlias
 {
     /** @var string custom uuid */
     public string $id;
