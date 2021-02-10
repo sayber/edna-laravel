@@ -9,7 +9,7 @@ namespace Sayber\Edna;
  */
 final class EdnaConstants
 {
-    /** @var string[]  */
+    /** @var string[] */
     public const ERRORS = [
         'ok'                                      => 'сообщение успешно принято на отправку',
         'error-system'                            => 'системная ошибка',
@@ -35,6 +35,19 @@ final class EdnaConstants
         'not-whatsapp-user'                       => 'адресат не является пользователем Whatsapp',
         'not-viber-user'                          => 'адресат не является пользователем Viber',
         'user-blocked'                            => 'номер адресата заблокирован'
+    ];
+
+    /** @var string[]  */
+    public const STATUSES = [
+        'enqueued'          => 'сообщение находится в очереди на отправку',
+        'sent'              => 'сообщение отправлено адресату',
+        'delivered'         => 'сообщение доставлено адресату',
+        'undelivered'       => 'сообщение отправлено, но не доставлено адресату',
+        'read'              => 'сообщение прочитано адресатом',
+        'failed'            => 'сообщение не было отправлено в результат сбоя',
+        'no-match-template' => 'сообщение не соответствует допустимому шаблону',
+        'delayed'           => 'отправка сообщения отложена',
+        'cancelled'         => 'отправка сообщения отменена'
     ];
 
 }
