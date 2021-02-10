@@ -1,12 +1,12 @@
 <?php
 
-namespace Sayber\Edna\Collections;
+namespace Edna\Collections;
 
 use Spatie\DataTransferObject\DataTransferObject as DataTransferObjectAlias;
 
 /**
  * Class EdnaImOutMessage
- * @package Sayber\Edna\Collections
+ * @package Edna\Collections
  */
 class EdnaImOutMessageCollection extends DataTransferObjectAlias
 {

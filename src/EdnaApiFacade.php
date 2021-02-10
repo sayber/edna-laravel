@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Sayber\Edna;
+namespace Edna;
 
 
 use Illuminate\Support\Facades\Facade;
@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * Class EdnaApiFacade
- * @package Sayber\Edna
+ * @package Edna
  */
 class EdnaApiFacade extends Facade
 {

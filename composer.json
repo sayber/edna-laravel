@@ -11,6 +11,11 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Edna\\": "src/"
+        }
+    },
     "require": {
         "php": "^7.4",
         "spatie/data-transfer-object": "^2.8"

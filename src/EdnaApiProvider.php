@@ -1,12 +1,12 @@
 <?php
 
-namespace Sayber\Edna;
+namespace Edna;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class EdnaApiProvider
- * @package Sayber\Edna
+ * @package Edna
  */
 class EdnaApiProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ class EdnaApiProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Sayber\Edna\Controllers\EdnaCallbackController');
+        $this->app->make('Edna\Controllers\EdnaCallbackController');
     }
 
     /**

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Sayber\Edna;
+namespace Edna;
 
 /**
  * Class EdnaConstants
- * @package Sayber\Edna
+ * @package Edna
  *
  * @TODO need english version
  */

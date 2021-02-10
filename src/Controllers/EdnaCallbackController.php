@@ -1,13 +1,13 @@
 <?php
 
-namespace Sayber\Edna\Controllers;
+namespace Edna\Controllers;
 
 
-class EdnaCallbackController extends \App\Http\Controllers\Controller
+class EdnaCallbackController
 {
     public function callback()
     {
-
+        dd(13123);
     }
 
 }

@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Sayber\Edna\Collections;
+namespace Edna\Collections;
 
 
 use Spatie\DataTransferObject\DataTransferObject;
 
 /**
  * Class EdnaStatusCallbackCollection
- * @package Sayber\Edna\Collections
+ * @package Edna\Collections
  */
 class EdnaStatusCallbackCollection extends DataTransferObject
 {
