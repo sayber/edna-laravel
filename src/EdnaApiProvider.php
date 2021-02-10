@@ -17,7 +17,7 @@ class EdnaApiProvider extends ServiceProvider
      */
     public function register()
     {
-       // $this->app->make('Sayber\Edna\Controllers\EdnaApiController');
+        $this->app->make('Sayber\Edna\Controllers\EdnaCallbackController');
     }
 
     /**
@@ -31,7 +31,7 @@ class EdnaApiProvider extends ServiceProvider
         include __DIR__ . '/../routes/api.php';
 
         $this->publishes([
-            __DIR__.'/../config/edna.php' => config_path('mpa.php'),
+            __DIR__.'/../config/edna.php' => config_path('edna.php'),
         ]);
     }
 }

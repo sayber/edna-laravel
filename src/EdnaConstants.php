@@ -6,6 +6,8 @@ namespace Sayber\Edna;
 /**
  * Class EdnaConstants
  * @package Sayber\Edna
+ *
+ * @TODO need english version
  */
 final class EdnaConstants
 {
