@@ -27,8 +27,7 @@ class EdnaApiProvider extends ServiceProvider
      */
     public function boot()
     {
-
-        include __DIR__ . '/../routes/api.php';
+        $this->loadRoutesFrom(__DIR__.'/../routes/api.php');
 
         $this->publishes([
             __DIR__.'/../config/edna.php' => config_path('edna.php'),

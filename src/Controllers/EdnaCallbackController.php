@@ -2,12 +2,20 @@
 
 namespace Edna\Controllers;
 
+use App\Http\Controllers\Controller;
+use Edna\Collections\EdnaImOutMessageCollection;
+use Edna\Jobs\EdnaMessagesJob;
+use Illuminate\Http\Request;
 
-class EdnaCallbackController
+
+class EdnaCallbackController extends Controller
 {
-    public function callback()
+
+    public function callback(Request $request)
     {
-        dd(13123);
+       EdnaMessagesJob::dispatch($request->all());
+
+        return response(['status' => 'ok'], 200);
     }
 
 }
